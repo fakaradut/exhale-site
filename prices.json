@@ -1,0 +1,6 @@
+{
+  "updatedAt": "2026-10-01",
+  "countries": {
+    "TR": { "prices": { "cigarette": 100, "rolling": 400, "heated": 95, "vape": 250, "hookah": 350 } }
+  }
+}
