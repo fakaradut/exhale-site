@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fakaradut.github.io/exhale-site/sitemap-index.xml
+Sitemap: https://moonarcworks.com/exhale-site/sitemap-index.xml
