@@ -1,0 +1,1 @@
+import"./chrome.C8lYTTb6.js";var e=document.getElementById(`find`),t=[...document.querySelectorAll(`#costs tbody tr`)];e.addEventListener(`input`,()=>{let n=e.value.trim().toLocaleLowerCase(document.documentElement.lang);for(let e of t)e.hidden=!!n&&!e.dataset.name.includes(n)});
