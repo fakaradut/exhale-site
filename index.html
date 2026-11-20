@@ -1,25 +1,6 @@
-<!DOCTYPE html><html lang="en" dir="ltr" data-theme="light" data-base="/exhale-site/"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Exhale · Choose your language</title><meta name="description" content="Quit smoking and vaping with a smoke-free counter, a 30-day quit plan and a 3-minute craving rescue. See how much you save with real pack prices for 101 countries."><meta property="og:type" content="website"><meta property="og:title" content="Exhale · Choose your language"><meta property="og:description" content="Quit smoking and vaping with a smoke-free counter, a 30-day quit plan and a 3-minute craving rescue. See how much you save with real pack prices for 101 countries."><meta property="og:url" content="https://moonarcworks.com/exhale-site/en/"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/exhale-site/icon.png"><link rel="apple-touch-icon" href="/exhale-site/icon.png"><meta name="theme-color" content="#0b0d1c"><meta name="apple-itunes-app" content="app-id=6828166971"><script>
-      // The saved theme, else the system's, before anything is drawn.
-      (() => {
-        let saved;
-        try { saved = localStorage.getItem('theme'); } catch {}
-        document.documentElement.dataset.theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        document.documentElement.classList.add('js');
-      })();
-    </script><link rel="stylesheet" href="/exhale-site/_astro/Base.dOj7PTeP.css"></head><body><script>(function(){const languages = {"en":"en","tr":"tr","de":"de","es":"es","pt":"pt","fr":"fr","it":"it","nl":"nl","pl":"pl","cs":"cs","sk":"sk","hu":"hu","ro":"ro","bg":"bg","hr":"hr","sr":"sr","el":"el","ru":"ru","uk":"uk","sv":"sv","da":"da","nb":"nb","fi":"fi","ar":"ar","he":"he","hi":"hi","id":"id","ms":"ms","vi":"vi","th":"th","ja":"ja","ko":"ko","zh-hans":"zh-hans","zh-hant":"zh-hant"};
-const base = "/exhale-site/";
-
-    (() => {
-      let saved;
-      try { saved = localStorage.getItem('lang'); } catch {}
-      const tags = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en']).map((t) => t.toLowerCase());
-      // zh-TW / zh-HK / zh-Hant → Traditional, other zh → Simplified, no → Norwegian, iw → Hebrew.
-      const pick = (tag) => {
-        if (tag.startsWith('zh')) return /hant|tw|hk|mo/.test(tag) ? 'zh-hant' : 'zh-hans';
-        const code = { no: 'nb', nn: 'nb', iw: 'he', in: 'id' }[tag.split('-')[0]] || tag.split('-')[0];
-        return languages[code];
-      };
-      const lang = (saved && Object.values(languages).includes(saved) && saved) || tags.map(pick).find(Boolean) || 'en';
-      location.replace(`${base}${lang}/`);
-    })();
-  })();</script><main class="wrap" style="padding:80px 24px"><h1 style="font-size:44px">Exhale</h1><p class="sub">Choose your language</p><ul style="columns:3;margin-top:30px;padding:0;list-style:none;line-height:2.2"><li><a href="/exhale-site/en/" hreflang="en" lang="en">English</a></li><li><a href="/exhale-site/tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/exhale-site/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/exhale-site/es/" hreflang="es" lang="es">Español</a></li><li><a href="/exhale-site/pt/" hreflang="pt" lang="pt">Português</a></li><li><a href="/exhale-site/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/exhale-site/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="/exhale-site/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/exhale-site/pl/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/exhale-site/cs/" hreflang="cs" lang="cs">Čeština</a></li><li><a href="/exhale-site/sk/" hreflang="sk" lang="sk">Slovenčina</a></li><li><a href="/exhale-site/hu/" hreflang="hu" lang="hu">Magyar</a></li><li><a href="/exhale-site/ro/" hreflang="ro" lang="ro">Română</a></li><li><a href="/exhale-site/bg/" hreflang="bg" lang="bg">Български</a></li><li><a href="/exhale-site/hr/" hreflang="hr" lang="hr">Hrvatski</a></li><li><a href="/exhale-site/sr/" hreflang="sr" lang="sr">Српски</a></li><li><a href="/exhale-site/el/" hreflang="el" lang="el">Ελληνικά</a></li><li><a href="/exhale-site/ru/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/exhale-site/uk/" hreflang="uk" lang="uk">Українська</a></li><li><a href="/exhale-site/sv/" hreflang="sv" lang="sv">Svenska</a></li><li><a href="/exhale-site/da/" hreflang="da" lang="da">Dansk</a></li><li><a href="/exhale-site/nb/" hreflang="nb" lang="nb">Norsk</a></li><li><a href="/exhale-site/fi/" hreflang="fi" lang="fi">Suomi</a></li><li><a href="/exhale-site/ar/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/exhale-site/he/" hreflang="he" lang="he">עברית</a></li><li><a href="/exhale-site/hi/" hreflang="hi" lang="hi">हिन्दी</a></li><li><a href="/exhale-site/id/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/exhale-site/ms/" hreflang="ms" lang="ms">Bahasa Melayu</a></li><li><a href="/exhale-site/vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/exhale-site/th/" hreflang="th" lang="th">ไทย</a></li><li><a href="/exhale-site/ja/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/exhale-site/ko/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/exhale-site/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/exhale-site/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li></ul></main></body></html>
+<!doctype html>
+<html><head><meta charset="utf-8"><title>AirAgain</title>
+<link rel="canonical" href="https://moonarcworks.com/airagain/">
+<meta http-equiv="refresh" content="0; url=https://moonarcworks.com/airagain/">
+<script>location.replace("https://moonarcworks.com/airagain/" + location.search + location.hash)</script>
+</head><body><a href="https://moonarcworks.com/airagain/">https://moonarcworks.com/airagain/</a></body></html>
